@@ -24,6 +24,7 @@
 #include <fstream>
 #include <unordered_map>
 #include <iterator>
+#include <algorithm>
 
 //=============================================================
 // Pre-defined 10-byte representations of common sample rates
