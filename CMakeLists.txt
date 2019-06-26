@@ -15,5 +15,5 @@ target_compile_options(AudioFile
         $<$<OR:$<CXX_COMPILER_ID:Clang>,$<CXX_COMPILER_ID:AppleClang>,$<CXX_COMPILER_ID:GNU>>:
         -Wno-sign-compare>
 		$<$<CXX_COMPILER_ID:MSVC>:
-		/wd4389 /wd4244 /wd4245 /wd4458 /wd4457>
+		/wd4389 /wd4244 /wd4245 /wd4458 /wd4457 /wd4018 >
         )
